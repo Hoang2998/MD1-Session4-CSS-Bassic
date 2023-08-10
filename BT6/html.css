@@ -1,0 +1,13 @@
+header{
+    color: yellow;
+}
+p:nth-child(1){
+    color: blue;
+}
+p:nth-child(2){
+    color: brown;
+}
+footer{
+    background-color: antiquewhite;
+    color: violet;
+}

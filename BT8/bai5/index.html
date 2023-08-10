@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Dang Ky tai khoan</h1>
+    <div>
+    <form action="#" method="get">
+        <label for="hovaten">Ho va ten :</label>
+        <input type="text" id="hovaten" name="name">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+        <label for="password">Mat khau</label>
+        <input type="password" id="password" name="password">
+        <label for="repassword">Xac Nhan Mat khau</label>
+        <input type="password" id="repassword" name="repassword">
+        <input  class="dorong" type="submit" value="Dang ky">
+    </form>
+    </div>
+</body>
+<style>
+    div{
+        display: flex;
+        justify-content: center;
+    }
+    form{
+        padding: 20px;
+        background-color: bisque;
+        display: flex ;
+        flex-direction: column;
+    }
+    input{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .dorong{width: 100px;
+    }
+    label{
+        display: block;
+        width: 200px;       
+    }
+</style>
+</html>
